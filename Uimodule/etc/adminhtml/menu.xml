@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Akilesh_Uimodule::manager" title="Grid Manager" module="Akilesh_Uimodule" sortOrder="10" resource="Akilesh_Uimodule::manager"/>
+        <add id="Akilesh_Uimodule::add_row" title="Grid Manager" module="Akilesh_Uimodule" sortOrder="20" parent="Akilesh_Uimodule::manager" action="grid/grid" resource="Akilesh_Uimodule::add_row"/>
+    </menu>
+</config>
